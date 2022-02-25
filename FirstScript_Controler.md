@@ -80,6 +80,7 @@ Vous pouvez:
 
 <details>
  <summary> Remarques </summary>
+
 - Le code ci-dessus doit se trouver dans le corps d'une fonction pour fonctionner, c'est pour ne pas alourdir la lecture.
 - Quand on utilise `\\ Du texte ...`, c'est ce qu'on appelle un commentaire. Ce texte
 sera ignoré par le compilateur. Cela peut être utile pour rajouter de la sémantique,
@@ -164,6 +165,7 @@ Ces variables peuvent ensuite être modifié, lues etc. comme une variable local
 
 <details>
  <summary> Pourquoi utiliser _private_? </summary>
+
 Ici, nous utilisons _private_ afin de rendre notre variable "inaccessible", 
 ce qui nous force notamment à rajouter `[SerializeField]` pour l'afficher.
 Or, il existe une autre accessibilité: **public** qui nous permet d'afficher directement 
@@ -302,6 +304,7 @@ Faites bien attention à dire que vous n'êtes plus sur le sol au moment de saut
 
 <details>
  <summary> Opérateurs booléens </summary>
+
 Ici nous avons utiliser le ET, mais il existe d'autres opérateurs booléens, en voici la liste:
 - `&&` permet de faire un ET entre les deux booléens i.e. ça retourne vrai si les deux sont vrais
 - `||` permet de faire un OU inclusif qui retourne vrai si l'un des deux l'est

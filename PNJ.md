@@ -65,6 +65,7 @@ Ce qui va afficher dans la console:
 
 <details>
  <summary> Pourquoi s'arrête t-on à 9? </summary>
+
 Si vous détaillez n peu le fonctionnement de la boucle on va faire, quand i vaut 9:
 - On incrémente i, donc i vaut maintenant 10
 - On teste si i < 10, or ce n'est pas le cas, donc la boucle s'arrête.
@@ -74,6 +75,7 @@ il suffit de remplacer la condion d'arrêt par `i <= 10` (<= signifie inférieur
 
 <details>
  <summary> Remarque </summary>
+
 La boucle for n'est pas une simple boucle qui va de 0 à un nombre donné. Elle a ses
 subtilités que nous aurons pas le temps de voir mais n'hésitez pas à poser des questions si ça 
 vous intéresse.
@@ -113,6 +115,7 @@ itérer j de 0 à 12.
 
 <details>
  <summary> Astuce</summary>
+
 Si vous souhaitez rendre configurable la limite pour le i et pour le j mais que vous ne voulez pas avoir
 deux variables, vous pouvez utiliser le type Vector2Int. Il est configurable dans l'Inspector et vous
 pouvez ensuite récupérer le x et le y en faisant respectivement `monVector.x` et `monVector.y`.
@@ -187,6 +190,7 @@ Vous ferez en sorte que nos Agents s'arrête juste avant.
 
 <details>
  <summary> Astuces </summary>
+
 - Il est possible d'arrêter l'Agent gâce à la variable 
 [isStopped](https://docs.unity3d.com/ScriptReference/AI.NavMeshAgent-isStopped.html).
 - Vous pouvez vérifier facilement que vous rentrez en collision avec le joueur

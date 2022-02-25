@@ -13,6 +13,7 @@ par défaut (Microsoft Visual Studio).
 
 <details>
  <summary> Remarque </summary>
+
  Je vous conseille d'utiliser un autre IDE tel que Visual Studio Code ou JetBrains Rider. 
 J'ai personnellement une préférence pour ce dernier. Vous pouvez récupérer 
 une license étudiante [ici](https://www.jetbrains.com/fr-fr/community/education/#students).
@@ -118,6 +119,7 @@ se fera à chaque image.
 
 <details>
  <summary> Astuce </summary>
+
 Si vous souhaitez envoyer du code sur discord c'est très simple.
 Vous pouvez l'envoyer comme ça:
   ```csharp
