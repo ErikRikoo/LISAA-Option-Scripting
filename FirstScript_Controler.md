@@ -69,6 +69,7 @@ possible. Voici quelques régles:
 
 <details>
  <summary> Utilisation de Debug.Log </summary>
+
 Vous pouvez noter la présence de Debug.Log dans la section de code précédente. Cette fonction
 permet d'afficher dans la console ce qu'il y a entre parenthèse, ce qui peut être utile pour débugger.
 Vous pouvez:
