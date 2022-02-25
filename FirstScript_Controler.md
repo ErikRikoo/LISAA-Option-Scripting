@@ -89,7 +89,7 @@ mais cela ne devrait jamais remplacer un nom de fonction ou de variable claire.
 
 ## Création du Vecteur déplacement
 Pour créer un vecteur en 3 dimensions, c'est très simple:
-```
+```csharp
 Vector3 deplacement = new Vector3(0, 5, 0);
 ```
 Comme vous pouvez le voir ici nous:
@@ -100,7 +100,7 @@ Comme vous pouvez le voir ici nous:
     - Noter la présence du new qui est nécessaire, il indique que l'on crée un Vector3.
 
 Ensuite, il est possible d'appliquer les opération habituelles:
-```
+```csharp
 new Vector3(0, 1, 0) * 5 // Nous donne le résultat de la multiplication
 new Vector3(0, 1, 0) + new Vector3(0, 1, 0) // Nous donne le résultat de l'addition
 etc.
@@ -121,7 +121,7 @@ Vous pouvez essayer d'utiliser Translate directement comme dans Bolt et vous aur
 erreur. C'est normal, Bolt vous simplifiait la vie et récupérer le Transform pour vous.
 Comment faire? Le transform est accessible depuis le MonoBehaviour et vous savez quoi? Notre script en est un.
 On peut donc faire:
-```
+```csharp
 transform.Translate(monVector3);
 ```
 Vous pouvez noter ici que:
@@ -211,7 +211,7 @@ Cette fonction va nous retourner un booléen i.e. vrai ou faux.
 ## Exécution de code si la touche est pressée
 Pour éxécuter le code en fonction d'un booléen, nous allons utiliser le `if else`.
 Celui est l'équivalent du node Branch dans Bolt. Il s'utilise comme suit:
-```
+```csharp
 if(booleen) {
   // Code à éxécuter si booleen est vrai
 } else {
@@ -254,7 +254,7 @@ Quand vous souhaitez récupérer le Component sur un objet, il faut utiliser la 
 demandé. S'il existe, il nous le retournera.
 
 Elle s'utilise comme suit (ici pour un Rigidbody):
-```
+```csharp
 Rigidbody rb = GetComponent<Rigidbody>();
 ```
 Ici, nous:
@@ -278,7 +278,7 @@ Afin de détecter la collision avec le sol nous allons pouvoir utiliser la fonct
 OnCollisionEnter qui s'apparente à celui utilisé dans Bolt. Afin de dire à Unity
 que nous souhaitons écouter cet événement, il faut le rajouter dans notre classe
 comme le Update. Pour cela, rajoutez:
-```
+```csharp
 private void OnCollisionEnter(Collision other) {
   // Le code à éxécuter
 }
@@ -335,7 +335,7 @@ rajouter un commentaire. Nous allons aller plus loin en séparant ses codes dans
 fonctions différentes.
 
 Pour déclarer une fonction, on fait comme ceci:
-```
+```csharp
 private void NomDeLaFonction() {
   // Code de la fonction
 }
