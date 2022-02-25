@@ -1,4 +1,6 @@
-﻿# Rendons le monde plus vivant avec une plaque de pression
+﻿[< Accueil](README.md)
+
+# Rendons le monde plus vivant avec une plaque de pression
 Ici, nous allons rajouter un peu de vie et d'intéraction en rajoutant une plaque de pression.
 Celle-ci aura pour but, dans un premier temps, de déplacer un objet. Puis, de
 déplacer dans le sens inverse si le joueur sort.
@@ -141,3 +143,5 @@ l'Animator comme le RigidBody. Il nous suffit ensuite de modifier le paramètre 
 et fermait la porte.
 
 **Remarque:** Le nom utilisé dans l'Animator doit être le même que celui dans le Script.
+
+[< Accueil](README.md)

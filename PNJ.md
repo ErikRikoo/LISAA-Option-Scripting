@@ -1,4 +1,6 @@
-﻿# Faisons apparaître des PNJ qui nous suivent
+﻿[< Accueil](README.md)
+
+# Faisons apparaître des PNJ qui nous suivent
 
 ## Faisons apparaître un PNJ
 Commençons par créer un Empty, il représentera notre Spawn. Ensuite, créons un nouveau Script.
@@ -192,3 +194,5 @@ en comparant le transform qui rentre en collision et celui du joueur.
 - Il est tout à fait possible de rajouter un Collider en plus, plus grand en
 mode Trigger pour détecter le joueur.
 </details>
+
+[< Accueil](README.md)
